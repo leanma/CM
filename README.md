@@ -5,15 +5,18 @@ Objective
 
 Implement all concepts of Object-Oriented Programming as a solution to a real-world problem, starting from problem analysis, designing the solution (Class Diagram), and subsequently building the final product (Software).
 
+
 Procedure
 
 Research and Documentation
 Cryptocurrencies (cryptocurrencies or virtual currencies) refer to money existing in a digital environment. They are widely used for exchanges between businesses or institutions. Cryptocurrency values are variable, changing based on market demand and supply, as well as user engagement. Cryptocurrencies are used in a decentralized network of computers known as blockchain, composed of nodes distributed worldwide.
 
+
 Key Concepts:
 
 Nodes: Computers involved in the blockchain network. People who operate or control these nodes are known as miners.
 Exchanges: Companies that facilitate the exchange of fiat currencies (like dollars or euros) for cryptocurrencies.
+
 
 
 Here is a detailed description of the functionalities and contributions of the classes involved in the project:
@@ -28,11 +31,13 @@ User interaction.
 Data saving.
 
 
+
 Archivo:
 
 Utility class for file management. Functions:
 Loading, creating, and saving files.
 Checking file existence.
+
 
 
 Criptomoneda:
@@ -42,9 +47,11 @@ Getters and setters.
 Utility methods.
 
 
+
 Main:
 
 Entry point for executing the system.
+
 
 
 Market:
@@ -54,14 +61,11 @@ Getters and setters.
 Utility methods.
 
 
-MyException:
-
-Class extending Exception to handle specific errors with custom messages.
-
 
 User:
 
 Abstract class defining basic attributes and behaviors of a user. Serves as a base for UserAdmin and UserTrader. Common methods for both types of users.
+
 
 
 UserAdmin:
@@ -71,12 +75,14 @@ Create, modify, and delete cryptocurrencies.
 Query cryptocurrencies and market status.
 
 
+
 UserTrader:
 
 Extends User, specialized in cryptocurrency trading. Functions:
 Buy and sell cryptocurrencies.
 Query and recommend cryptocurrencies.
 Query market status and view transaction history.
+
 
 
 
