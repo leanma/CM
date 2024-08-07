@@ -10,7 +10,6 @@ Cryptocurrencies (cryptocurrencies or virtual currencies) refer to money existin
 
 Key Concepts:
 Nodes: Computers involved in the blockchain network. People who operate or control these nodes are known as miners.
-
 Exchanges: Companies that facilitate the exchange of fiat currencies (like dollars or euros) for cryptocurrencies.
 
 
@@ -19,46 +18,54 @@ Here is a detailed description of the functionalities and contributions of the c
 App:
 The main class of the cryptocurrency management system, allowing users to interact with cryptocurrencies and markets. Functions:
 Declaration of global variables.
-
 File initialization.
 User login and verification.
 User interaction.
 Data saving.
-File:
-Utility class for file management. Functions:
 
+
+Archivo:
+Utility class for file management. Functions:
 Loading, creating, and saving files.
 Checking file existence.
-CryptoCurrency:
-Represents a cryptocurrency within the system. Functions:
 
+
+Criptomoneda:
+Represents a cryptocurrency within the system. Functions:
 Getters and setters.
 Utility methods.
+
+
 Main:
 Entry point for executing the system.
 
+
 Market:
 Represents a market for a cryptocurrency, providing details on its symbol, capacity, transaction volume, and variation. Functions:
-
 Getters and setters.
 Utility methods.
+
+
 MyException:
 Class extending Exception to handle specific errors with custom messages.
+
 
 User:
 Abstract class defining basic attributes and behaviors of a user. Serves as a base for UserAdmin and UserTrader. Common methods for both types of users.
 
+
 UserAdmin:
 Extends User with administrative privileges. Functions:
-
 Create, modify, and delete cryptocurrencies.
 Query cryptocurrencies and market status.
+
+
 UserTrader:
 Extends User, specialized in cryptocurrency trading. Functions:
-
 Buy and sell cryptocurrencies.
 Query and recommend cryptocurrencies.
 Query market status and view transaction history.
+
 
 
 Conclusion
