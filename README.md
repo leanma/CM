@@ -18,8 +18,8 @@ Here is a detailed description of the functionalities and contributions of the c
 
 App:
 The main class of the cryptocurrency management system, allowing users to interact with cryptocurrencies and markets. Functions:
-
 Declaration of global variables.
+
 File initialization.
 User login and verification.
 User interaction.
